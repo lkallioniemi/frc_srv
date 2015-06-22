@@ -1,5 +1,5 @@
 <?php
-    abstract class API
+    abstract class REST_API
 {
     /**
      * Property: method
