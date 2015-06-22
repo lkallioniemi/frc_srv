@@ -5,7 +5,7 @@
 
         public function __construct($request, $origin) {
             parent::__construct($request);
-    
+            var_dump('test');
             // Abstracted out for example
             $APIKey = new Models\APIKey();
             $User = new Models\User();
